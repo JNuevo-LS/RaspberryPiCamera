@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Camera Stream</title>
+    <style>
+        /* Add your CSS here */
+        body {
+            background-color: black;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello Ackerman Family</h1>
+    <img src="{{ url_for('video_feed') }}" />
+</body>
+</html>
